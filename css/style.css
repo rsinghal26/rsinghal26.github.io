@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #rjp-main {
-  max-width: 760px;
+  max-width: 800px;
   min-height: 600px;
   margin: 5em auto 5em auto;
   position: relative;
@@ -338,10 +338,89 @@ figure {
   display: block;
   margin-top: 5px;
 }
+/* ----------------------------------------- */
+
+
+  hr.style-two {
+    border: 0;
+    height: 0;
+    margin-top: 35px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+.getMore{
+  border-style: solid;
+  border-color: #b37700;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-width: 1.2px;
+  transition: 0.5s;
+  margin-top: -2px;
+ }
+    
+    
+.getMore:hover, .getMore:focus {
+  border-color: white;
+  color: #b37700;
+  transition: 0.5s;
+  box-shadow: 1px 1px 10px white;
+  text-shadow: 1px 1px 10px #b37700;
+  text-decoration: none;
+}    
+
+.rjp-feature2{
+  margin-top: 60px;
+}
+
+.rjp-feature2 .rjp-text-image {
+  text-align: justify;
+}
+
+.rjp-feature2 .rjp-text-image h2 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* 
+@media screen and (max-width: 768px) {
+  .rjp-feature2 .rjp-text-image {
+    text-align: center;
+    width: 100%;
+  }
+
+  .project_image{
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+} */
+/* @media screen and (max-width: 480px) {
+  .rjp-feature2 .rjp-text-image {
+    text-align: center;
+    width: 100%;
+  }
+
+  .project_image{
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+} */
+
+.project_image{
+  height: 100%; 
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------- */
+
+
 .rjp-feature .rjp-icon i {
   color: #b37700;
   font-size: 40px;
 }
+
 .rjp-feature .rjp-text {
   float: right;
   width: 82%;
