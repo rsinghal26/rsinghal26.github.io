@@ -298,13 +298,13 @@ figure {
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
+  zoom: 2;
   *display: inline;
 }
 .rjp-social li a {
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
