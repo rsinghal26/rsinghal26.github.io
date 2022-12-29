@@ -320,8 +320,12 @@ figure {
   border-radius: 7px;
 }
 @media screen and (max-width: 768px) {
-  .rjp-social li a {
-    padding: 10px 8px;
+  .rjp-social li {
+    zoom: 1.5;
+  }
+
+  .rjp-social li a{
+    padding: 3px 7px;
   }
 }
 .rjp-social li a:hover {
