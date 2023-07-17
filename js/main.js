@@ -11,6 +11,9 @@
 		  body.classList.add('custom-style');
 		  $('#main_page').removeClass('active');
 		  $('#connect').addClass('active');
+
+		  $('.rjp-tab-content[data-content=6]').addClass('animated fadeInUp active');
+		  getHeight();
 		}
 	});
 
