@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 30px black;
 
 }
+
 @media screen and (max-width: 768px) {
   #rjp-main {
     margin: 2em .5em 5em .5em;
@@ -564,4 +565,11 @@ figure {
 }
 .rjp-contact p{
   margin-top:10px;
+}
+
+.bordered-div {
+  border: 2px groove #b37700;
+  box-shadow: 1px 1px 20px #b37700;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
