@@ -16,7 +16,7 @@
 			var urlParams = new URLSearchParams(window.location.search);
 			var contentParam = urlParams.get('contact');
 		  
-			if (contentParam == null) {
+			if (contentParam !== null) {
 				$('#main_page').removeClass('active');
 				$('#connect').addClass('active');
 
