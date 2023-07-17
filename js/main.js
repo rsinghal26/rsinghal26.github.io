@@ -1,7 +1,18 @@
-;(function () {
+(function () {
 	
 	'use strict';
 
+	window.addEventListener('DOMContentLoaded', function() {
+		var urlParams = new URLSearchParams(window.location.search);
+		var contentParam = urlParams.get('contact');
+	  
+		if (contentParam !== null) {
+		  var body = document.querySelector('body');
+		  body.classList.add('custom-style');
+		  $('#main_page').removeClass('active');
+		  $('#connect').addClass('active');
+		}
+	});
 
 
 	var isMobile = {
