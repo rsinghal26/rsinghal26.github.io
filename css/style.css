@@ -127,7 +127,6 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -140,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -305,7 +303,6 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 2;
-  *display: inline;
 }
 .rjp-social li a {
   font-size: 20px;
@@ -314,7 +311,6 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -498,7 +494,6 @@ figure {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
   }
 }
 
@@ -572,4 +567,6 @@ figure {
   box-shadow: 1px 1px 20px #b37700;
   border-radius: 8px;
   margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
